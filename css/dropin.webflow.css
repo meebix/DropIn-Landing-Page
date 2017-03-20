@@ -154,6 +154,16 @@ p {
   background-color: transparent;
 }
 
+.navbar-non-landing {
+  display: none;
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: transparent;
+}
+
 .upper {
   margin-top: 100px;
   margin-bottom: 20px;
@@ -457,6 +467,16 @@ p {
 .navbar-scroll {
   position: fixed;
   display: none;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #000;
+  box-shadow: none;
+}
+
+.navbar-scroll-non-landing {
+  position: relative;
+  display: block;
   width: 100%;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -1559,6 +1579,10 @@ html.w-mod-js *[data-ix="responsive"] {
   transform: translate(0px, 20px) scale(0.7000000000000002, 0.7000000000000002);
 }
 
+.page-non-landing {
+  padding: 40px 15px;
+}
+
 @media (max-width: 991px) {
   body {
     height: auto;
@@ -1592,6 +1616,14 @@ html.w-mod-js *[data-ix="responsive"] {
     background-attachment: scroll, scroll;
   }
   .navbar {
+    height: 95px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #000;
+    color: #2eb6d1;
+  }
+  .navbar-non-landing {
+    display: block;
     height: 95px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -1711,6 +1743,10 @@ html.w-mod-js *[data-ix="responsive"] {
     color: #28a4bd;
   }
   .navbar-scroll {
+    display: none;
+    box-shadow: none;
+  }
+  .navbar-scroll-non-landing {
     display: none;
     box-shadow: none;
   }
@@ -1948,6 +1984,9 @@ html.w-mod-js *[data-ix="responsive"] {
     margin-top: 40px;
     margin-bottom: 40px;
   }
+  .page-non-landing {
+    padding: 95px 15px 40px 15px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1976,6 +2015,10 @@ html.w-mod-js *[data-ix="responsive"] {
     background-attachment: scroll, scroll;
   }
   .navbar {
+    height: 96px;
+  }
+  .navbar-non-landing {
+    display: block;
     height: 96px;
   }
   .section {
@@ -2222,6 +2265,9 @@ html.w-mod-js *[data-ix="responsive"] {
     right: 16px;
     width: 400px;
   }
+  .page-non-landing {
+    padding: 95px 15px 40px 15px;
+  }
 }
 
 @media (max-width: 479px) {
@@ -2239,6 +2285,10 @@ html.w-mod-js *[data-ix="responsive"] {
     background-size: auto, cover;
   }
   .navbar {
+    height: 92px;
+  }
+  .navbar-non-landing {
+    display: block;
     height: 92px;
   }
   .upper {
@@ -2455,5 +2505,8 @@ html.w-mod-js *[data-ix="responsive"] {
     left: -11px;
     right: 0px;
     width: 285px;
+  }
+  .page-non-landing {
+    padding: 105px 15px 40px 15px;
   }
 }
