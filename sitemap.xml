@@ -4,18 +4,30 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
   <loc>http://joindropin.com/</loc>
-  <lastmod>2015-12-29T21:50:12+00:00</lastmod>
+  <lastmod>2017-03-20T06:49:23+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://joindropin.com/index.html</loc>
+  <lastmod>2017-03-20T06:49:23+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://joindropin.com/partner-inquiries.html</loc>
+  <lastmod>2017-03-20T06:49:24+00:00</lastmod>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://joindropin.com/terms.html</loc>
-  <lastmod>2015-08-24T01:02:14+00:00</lastmod>
+  <lastmod>2017-03-20T06:49:26+00:00</lastmod>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://joindropin.com/privacy.html</loc>
-  <lastmod>2015-08-24T01:02:13+00:00</lastmod>
+  <lastmod>2017-03-20T06:49:24+00:00</lastmod>
+  <changefreq>monthly</changefreq>
 </url>
 </urlset>
